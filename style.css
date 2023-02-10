@@ -1,0 +1,63 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    font-family: sans-serif;
+    flex-direction: column;
+}
+
+.cabecalho{
+    align-items: center;
+    display: flex;
+    height: 3.5rem;
+    justify-content: space-between;
+    padding-inline: 3rem;
+}
+
+.cabecalho__container{
+    align-items: center;
+    display: flex;
+}
+
+.cabecalho__icone > path{
+    fill: #820ad1;
+}
+
+.navegacao__lista{
+    display: flex;
+    gap: 1.5rem;
+    list-style-type: none;
+}
+
+.hero{
+    align-items: center;
+    background-image: url(./fundo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+    padding-inline: 3rem;
+}
+
+.hero__texto{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__texto > *{
+    color: #FFFFFF;
+}
+
+.hero__cartao{
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 303px;
+    padding: 1.5rem;
+    width: 330px;
+}
